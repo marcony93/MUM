@@ -58,7 +58,7 @@ $("#perfil").on("pagecreate",function(e){
                     for(var i = 0 ; i < jsonDoc.producto.length; i++){
                       htmlstr +=  '<h2><li>'+jsonDoc.producto[i].Descripcion+'</li></h2>'
                         for(var j=0 ; j< 2; j++){
-                          var des=jsonDoc.producto[i].items[j].Descrip;
+                          var des=jsonDoc.producto[i].items[j].Precio;
                           var precio=jsonDoc.producto[i].items[j].Precio;
                         htmlstr +=  jsonDoc.producto[i].items[j].Descrip+'</br>';
                         htmlstr +=  'Lps.'+jsonDoc.producto[i].items[j].Precio+'</br>'

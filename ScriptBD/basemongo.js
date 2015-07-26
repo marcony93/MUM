@@ -10,10 +10,10 @@ var datos={"UserId":2,"Nombre":"Marcony","Apellido":"Meza","Correo":"marconymeza
              ,{"Prod":4,"Pasteles De Fondat":"Pastel De Chocolate 3 Pisos","Precio":2500,"Cantidad":1,"Img":"pastelchocolate.png"},{"ProdId":5,"Tarjetas De Invitación":"Tarjeta Para Quince Años","Precio":75,"Cantidad":50,"Img":"tarjeta15.png"}]}
 db.usuario.insert(datos)
 var datos={"UserId":3,"Nombre":"Wilmer","Apellido":"Lainez","Correo":"sirmimex@gmail.com","Usuario":"sirmimex","Clave":"hola"
-,"Carrito":[{"ProdId":10,"Servicio De Meseros":"Servicio De 2 Meseros","Precio":1000,"Cantidad":2,"Img":"meseros.png"}]}
+,"Carrito":[{"ProdId":6,"Ramos De Novia":"Ramo En Cascada","Precio":1000,"Cantidad":2,"Img":"ramocascada.png"}]}
 db.usuario.insert(datos)
 var datos={"UserId":4,"Nombre":"Brigith","Apellido":"Zaldivar","Correo":"brillito09@gmail.com","Usuario":"brillito","Clave":"brillito09"
-,"Carrito":[{"ProdId":8,"Decoraciones":"Decoración De Salones","Precio":3000,"Cantidad":1,"Img":"decoracionsalon.png"},{"ProdId":12,"Fotografía Profesional":"Sesión Fotográfica Junto Con Video Profesional","Precio":5000,"Cantidad":1,"Img":"sesion2.png"}]}
+,"Carrito":[{"ProdId":8,"Decoraciones":"Decoración De Salones","Precio":3000,"Cantidad":1,"Img":"decoracionsalon.png"}]}
 db.usuario.insert(datos)
 
 
@@ -40,12 +40,4 @@ var prod={"ProdId":7,"Descripcion":"Accesorios Para Boda","items":[{"Descrip":"C
 db.producto.insert(prod)
 var prod={"ProdId":8,"Descripcion":"Decoraciones","items":[{"Descrip":"Decoración De Iglesias","Precio":2500,"Img":"decoracioniglesia.png"},{"Descrip":"Decoración De Salones","Precio":3000,"Img":"decoracionsalon.png"}
                ,{"Descrip":"Decorción Fiesta Infantil","Precio":2000,"Img":"fiestainfantil.png"}]}
-db.producto.insert(prod)
-var prod={"ProdId":9,"Descripcion":"Sonido Proesional","items":[{"Descrip":"Parlantes Y Luces","Precio":1000,"Img":"parlante.png"},{"Descrip":"Parlantes, Luces Y Humo","Precio":1200,"Img":"parlantes2.png"},{"Descrip":"Combo Completo De Sonido","Precio":1600,"Img":"parlante3.png"}]}
-db.producto.insert(prod)
-var prod={"ProdId":10,"Descripcion":"Servicio De Meseros","items":[{"Descrip":"Servicio De 2 Meseros","Precio":1000,"Img":"meseros.png"},{"Descrip":"Servicio De 4 Meseros","Precio":2000,"Img":"meseros2.png"}]}
-db.producto.insert(prod)
-var prod={"ProdId":11,"Descripcion":"Centro De Mesa","items":[{"Descrip":"Centro De Mesa Altos","Precio":1000,"Img":"centroalto.png"},{"Descrip":"Centro De Mesa Bajo","Precio":2000,"Img":"centrosbajos.png"}]}
-db.producto.insert(prod)
-var prod={"ProdId":12,"Descripcion":"Fotografía Profesional","items":[{"Descrip":"Sesión Fotográfica Profesional","Precio":2000,"Img":"sesion.png"},{"Descrip":"Sesión Fotográfica Junto Con Video Profesional","Precio":5000,"Img":"sesion2.png"}]}
 db.producto.insert(prod)
