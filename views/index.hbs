@@ -1,0 +1,58 @@
+<div class="todo">
+  <div class="container">
+  <div id="slider">
+      <div><img src="img/banner.jpg"></div>
+      <div><img src="img/banner2.jpg"></div>
+      <div><img src="img/banner3.jpg"></div>
+  </div>
+  </div>
+  <div class="conta">
+      <div id="slid">
+          <div class="contenido"><h1><b>Encuentra</b> todo lo que necesitas para tu boda</h1></div>
+          <div class="contenido"><h2>Hacemos Que Tus Momentos Perduren Para Siempre!!!</h2></div>
+          <div class="contenido"><h1>Vive una experiencia Unica</h1></div>
+      </div>
+
+  </div>
+
+  </div>
+  <div class="container2">
+      <img src="img/anillos.png" align="right"/>
+          <h1>Bodas</h1>
+          <h3>No sabes por donde empezar a organizar tu boda? La organizaciin de una boda no es tarea sencilla, pero uno te aflijas!. Pero sobre todo no te estreses y tamalo con calma! ya que nosotros tenemos la solucion para que sea la boda que siempre quisiste.</h3>
+  </div>
+  <div class="container3">
+      <h1>Eventos</br> Especiales</h1>
+      <img src="img/champagne.png" align="left"/>
+  </div>
+  <div class="container4">
+      <h2>Paquetes Familiares</h2>
+      <img src="img/promocion2.jpg" align="left"/>
+  </div>
+  <div class="container5">
+      <h1>Descuentos</h1>
+      <img src="img/promocion3.jpg" align="left"/>
+  </div>
+  <script type="text/javascript">
+$(function(){
+  $('#slider div:gt(0)').hide;
+  setInterval(function()
+              {
+                $('#slider div:first-child').fadeOut(2000)
+                .next('div').fadeIn(2000)
+                .end().appendTo('#slider');
+              },5000);
+
+});
+$(function(){
+  $('#slid div:gt(0)').hide;
+  setInterval(function()
+              {
+                $('#slid div:first-child').fadeOut(2000)
+                .next('div').fadeIn(2000)
+                .end().appendTo('#slid');
+              },5000);
+
+});
+
+</script>
